@@ -1,0 +1,160 @@
+.login{
+    margin: 0;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(to bottom,
+    purple, darkblue);
+}
+
+.space{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}
+
+.login-form{
+   
+    width: 300px;
+    padding: 40px;
+
+    border-radius: 15px;
+
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+.input-box{
+    position: relative;
+    margin: 25px 0;
+}
+
+.input-box input{
+    width: 100%;
+    padding: 14px 0 6px;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid white;
+    outline: none;
+    color: white;
+}
+
+.input-box input::placeholder{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.input-box input:focus::placeholder{
+    opacity: 0.3;
+}
+   
+.login-button{
+    display: block;
+    margin: 20px auto;
+    padding:12px 35px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1px;
+    cursor:pointer;
+
+    background: linear-gradient(45deg,
+    purple,darkblue);
+
+    box-shadow: 0 0 15px purple;
+    transition: 0.3s ease;
+}
+
+/*PORT Folio*/
+.stylish{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:Arial, sans-serif;
+}
+
+
+/* NAVBAR */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background: black;
+    color:white;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap:20px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+}
+
+/* HERO */
+.hero{
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(to right,
+     purple,blue);
+     color:white;
+}
+
+.hero button{
+    margin-top: 15px;
+    padding:12px 25px;
+    border:none;
+    border-radius: 8px;
+    background: linear-gradient(to right,
+    purple,blue);
+    color:white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+    box-shadow: 0 0 15px purple;
+}
+
+.hero button:active{
+    transform: scale(0.95)
+}
+
+.hero button:hover{
+    transform:scale(1.05);
+    opacity:0.9;
+}
+
+section{
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.project{
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    width:250px;
+}
+
+.project:hover{
+    transform:scale(1.05);
+}
+a{
+    text-decoration: none;
+}
