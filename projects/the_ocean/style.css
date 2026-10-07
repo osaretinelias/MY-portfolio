@@ -1,0 +1,251 @@
+:root{
+    --margin-body: 0; 
+    --primary-color: darkblue;
+}
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*log in page styling*/
+#first_page{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#form_area{
+    width: 100%;
+    max-width: 400px;
+    padding: 30px;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+input{
+    width: 100%;
+    margin: 10px 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    
+}
+.first_page_button{
+    width: 100%;
+    margin: 10px 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    gap: 58%;
+}
+.fist_button{
+    width: 150%;
+    margin: 10px 5px;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 7px;
+    padding: 5px;
+}
+#hpb{
+    max-width: 100px;
+}
+
+/*Home page styling starts here*/
+.in-body{
+    margin: 0;
+    height: 100vh;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    gap: 20px;
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.sec_nav{
+    color: white;
+    text-decoration: none;
+}
+
+#intro_dev_group{
+    text-align: center;
+}
+
+main{
+    padding: 7px;
+}
+#dev_group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+#dev_group div{
+    width: 90%;
+    max-width: 300px;
+    padding: 30px;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+#dev_group div:hover{
+    box-shadow: 4px 4px 8px gray;
+    transform: scale(1.02) 0.3s;
+    
+}
+
+.sec_btn{
+  display: block;
+  margin: 20px;
+  margin-left: 45%;
+  text-decoration: none;
+}
+
+footer{
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    #dev_group{
+        flex-direction: row;    
+        justify-content: center; 
+        align-items: stretch;
+    }
+}
+
+/* Libary styling starts from here */
+#libary_images{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+h3{
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: rgb(18, 65, 250);
+}
+
+.libary_container a{
+    color: white;
+    margin-left: 20px;
+    font-size: 70px;
+}
+
+.libary_container{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "libary_header libary_header"
+                         "libary_img1 libary_main"
+                         "libary_img1 libary_footer" ;  
+box-shadow: 3px 3px 7px gray;
+}
+
+.libary_header{
+    grid-area: libary_header;
+}
+.libary_img1{
+    grid-area: libary_img1;
+}
+.libary_main{
+    grid-area: libary_main;
+    padding: 5px;
+    background-color: aquamarine;
+}
+.libary_footer{
+    grid-area: libary_footer;
+    background-color: orangered;
+}
+.sec_nav{
+    background-color: var(--primary-color);
+    color: white;
+
+}
+
+#libary_button{
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 15%;
+    padding: 4px;
+    border-radius: 4px;
+    background-color: rgb(0, 94, 255);
+    color: white;
+    font-weight: bold;
+}
+
+/* Styling for marine research notes starts here */
+.notes{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f7f7f8;
+    padding: 0 30px;
+   margin: 25px;
+}
+#marine h4{
+    margin: 20px 0;
+}
+.ocean_notes_images{
+    width: 90%;
+    height: auto;
+}
+.marine_eco-systems{
+    box-shadow: 5px 5px 10px gray;
+    text-align: center;
+}
+.marine_eco-systems h3,h4{
+    padding-top: 25px;
+}
+button{
+    display: block;
+    margin: 0 auto;
+    width: 15%;
+    padding: 4px;
+    border-radius: 4px;
+    background-color: rgb(0, 94, 255);
+    color: white;
+    font-weight: bold;
+}
+button:hover{
+    box-shadow: 0 0 5px aqua;
+}
+.full_align{
+    text-decoration: none;
+}
+#marine h3{
+    margin: 20px 0;
+}
+
+/* for tabs and laptop*/
+@media (min-width: 1000px){
+    .marine_eco-systems{
+        padding: 0 30px;
+        margin: 25px;
+        margin: 30px 0;
+        box-shadow: none;
+        transition: transform 0.3s ease;
+    }
+    .marine_eco-systems:hover{
+        transform: scale(1.1);
+        box-shadow: 5px 5px 10px gray;
+    }
+    .marine_eco-systems{
+        margin: 55px;
+    }
+}
+
+
