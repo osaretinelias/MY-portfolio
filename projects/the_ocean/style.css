@@ -1,9 +1,8 @@
 :root{
-    --margin-body: 0; 
     --primary-color: darkblue;
 }
 body{
-    margin: 0;
+    height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -22,6 +21,8 @@ body{
     width: 100%;
     max-width: 400px;
     padding: 30px;
+    box-sizing: border-box;
+
     text-align: center;
     border: 1px solid gray;
     border-radius: 5px;
@@ -32,9 +33,8 @@ input{
     margin: 10px 5px;
     padding: 5px;
     box-sizing: border-box;
-    
 }
-.first_page_button{
+.first_page_button {
     width: 100%;
     margin: 10px 5px;
     padding: 5px;
@@ -43,17 +43,14 @@ input{
     box-sizing: border-box;
     gap: 58%;
 }
-.fist_button{
-    width: 150%;
-    margin: 10px 5px;
+.first_page_button button{
+    width: 100%;
     background-color: var(--primary-color);
     color: white;
     border-radius: 7px;
     padding: 5px;
 }
-#hpb{
-    max-width: 100px;
-}
+
 
 /*Home page styling starts here*/
 .in-body{
@@ -123,7 +120,15 @@ footer{
         align-items: stretch;
     }
 }
-
+/* About page styling starts from here */
+.about h3{
+    width: 50%;
+    max-width: 450px;
+    margin-left: 28%;
+    text-align: center;
+    color: white;
+    background-color: rgb(18, 65, 250);
+}
 /* Libary styling starts from here */
 #libary_images{
     width: 100%;
@@ -247,5 +252,4 @@ button:hover{
         margin: 55px;
     }
 }
-
 

@@ -1,5 +1,4 @@
 .spider-body{
-    margin: 0;
     height: 100vh;
     background: burlywood;
 }
@@ -40,7 +39,7 @@ footer a{
     display: block;
     margin: 0 auto;
     padding: 5px;
-    width: 10%;
+    width: 20%;
     max-width: 100px;
     font-weight: bold;
     border-radius: 10px;
