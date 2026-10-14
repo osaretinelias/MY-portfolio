@@ -1,10 +1,6 @@
 :root{
     --primary-color: darkblue;
 }
-body{
-    height: 100vh;
-    font-family: Arial, Helvetica, sans-serif;
-}
 
 /*log in page styling*/
 #first_page{
@@ -19,7 +15,7 @@ body{
 
 #form_area{
     width: 100%;
-    max-width: 400px;
+    max-width: 450px;
     padding: 30px;
     box-sizing: border-box;
 
@@ -55,14 +51,12 @@ input{
 /*Home page styling starts here*/
 .in-body{
     margin: 0;
-    height: 100vh;
 }
 nav{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     padding: 10px;
-    gap: 20px;
     background-color: var(--primary-color);
     color: white;
 }
@@ -86,7 +80,7 @@ main{
     gap: 20px;
 }
 #dev_group div{
-    width: 90%;
+    width: 65%;
     max-width: 300px;
     padding: 30px;
     text-align: center;
@@ -122,9 +116,9 @@ footer{
 }
 /* About page styling starts from here */
 .about h3{
-    width: 50%;
+    width: 53%;
     max-width: 450px;
-    margin-left: 28%;
+    margin-left: 25%;
     text-align: center;
     color: white;
     background-color: rgb(18, 65, 250);
@@ -186,7 +180,7 @@ box-shadow: 3px 3px 7px gray;
     display: block;
     margin: 0 auto;
     margin-top: 10px;
-    width: 15%;
+    width: 25%;
     padding: 4px;
     border-radius: 4px;
     background-color: rgb(0, 94, 255);
@@ -200,6 +194,9 @@ box-shadow: 3px 3px 7px gray;
     background-color: #f7f7f8;
     padding: 0 30px;
    margin: 25px;
+}
+#marine_life{
+    width: 100%;
 }
 #marine h4{
     margin: 20px 0;
