@@ -52,10 +52,11 @@ input{
 .in-body{
     margin: 0;
 }
-#home{
+.ocean_general_header{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    padding: 0px 10px;
     gap: 20px;
     background-color:var(--primary-color);
     color: white; 
@@ -132,14 +133,20 @@ footer{
     color: white;
     }
 }
+
 /* About page styling starts from here */
 .about h3{
-    width: 53%;
+    width: 50%;
     max-width: 450px;
-    margin-left: 25%;
+    margin-left: 23%;
     text-align: center;
     color: white;
     background-color: rgb(18, 65, 250);
+}
+@media (min-width: 768px){
+    .about h3{
+         margin-left: 32%;
+    }
 }
 /* Libary styling starts from here */
 #libary_images{
