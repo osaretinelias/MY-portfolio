@@ -61,19 +61,16 @@ input{
     background-color:var(--primary-color);
     color: white; 
 }
-#home h1{
-    white-space: nowrap;
+.ocean_general_header h3{
+    background-color:var(--primary-color);
 }
-nav{
-    display: flex;
-    gap: 20px;
-    align-items: center;
-}
+
 
 .sec_nav{
     color: white;
     text-decoration: none;
     white-space: nowrap;
+    padding: 0 5px;
 }
 
 #intro_dev_group{
@@ -131,6 +128,18 @@ footer{
     padding: 10px;
     background-color: var(--primary-color);
     color: white;
+    }
+}
+@media (max-width: 480px){
+    .ocean_general_header{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sec_nav{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
     }
 }
 
